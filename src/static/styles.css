@@ -113,6 +113,34 @@ section h3 {
   border-radius: 4px;
 }
 
+.participants {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f7f9fc;
+  border: 1px solid #dce3ed;
+  border-radius: 8px;
+}
+
+.participants ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.participants ul li {
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #e3f2fd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.participants ul li:hover {
+  background-color: #bbdefb;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
